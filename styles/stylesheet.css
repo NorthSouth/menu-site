@@ -1,0 +1,57 @@
+body {  
+  font-family:sans-serif;
+  background-color:black;
+}
+
+header h1 {
+  width:75%;
+  margin:auto;
+  align-content:center;
+  color:purple;  
+  font-family:sans-serif;
+}
+
+
+.main-nav {
+  background-color:purple;
+}
+
+nav li {
+  list-style: none;
+}
+
+aside {
+  clear:both;
+  float:left;
+  background-color:orchid;
+  width:25%;
+  
+  
+}
+
+aside ul {
+  clear:both;
+  
+}
+
+article {
+  float:left;
+  background-color:white;
+}
+
+figure {
+  /*margin auto
+  center text
+  */
+  
+}
+
+footer {
+  
+  
+}
+
+.main-article {
+  width:75%;
+  background-color:lightgray;
+}
