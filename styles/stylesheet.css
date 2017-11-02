@@ -1,37 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-  /* Change my background, and set global font family.*/
+    font-family:sans-serif;
+    background-color:black;
+    width: 1000px;
+    margin: auto;
 }
 
-.content-wrapper {
-  /* Center on page, set width */
+.content-wrapper{
+    margin:auto;
 }
 
-header h1 {
-  /* Make bigger and color, Change our font family to a sans serif and center */
-  
+.header-m {
+    background-color: whitesmoke;
+    color: #9966cc;
+    padding: 25px 5px 0px 0px;
+}
+
+.header-m h1 {
+    text-align:center;
+    font-size:40px;
+   /* padding-top: 50px;*/
+}
+
+a:link {
+    text-decoration: none;       
+    color: white;
+}
+
+a:active {
+    text-decoration: none;       
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;       
+    color: white;
 }
 
 .main-nav {
-  /* Change background color, remove bullets, border on each individual nav element. create and float links, center our content within the links. width, font color, change font family */
+    background-color: #9966cc;
+    color:white;
+    width:1000px;
+   /* height: 30px;*/
 }
 
-aside {
-  /* clear float, background color, float, font color */
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9966cc;
 }
-  aside ul {
-    /* clear both, links? */
+
+.main-nav li {
+    float: left;
+    border-left-color:black;
+    border-left-style:solid;
+    border-left-width:2px;
+}
+
+.main-nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 135px;
+    text-decoration: none;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+   /* height: 500px;*/
   }
 
-article {
-  /* background-color, float to the right?, font size  */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+    background-color: #d9c6ec;
+/*    height: 500px;*/
+    text-align: center;
+    padding-top: 51px;
 }
 
-figure {
-/* Center, size of the font */  
+.content {
+    width: 75%;
+    text-align:center;
+    background-color: rgb(240,240,240);
+/*    height: 550px;*/
 }
 
-footer {
-  /* float the images, create links, center links */
-
+.content figcaption {
+    text-align:center;
+    padding: 15px 0px 0px 0px;
 }
 
+.content img {
+    width: 500px;
+    height:auto;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 100px;
+/*    background-color: #33b5e5;*/
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/*.menu li:hover {
+    background-color: #0099cc;
+}*/
+
+.footer-m {
+/*    clear:both;*/
+    float:left;
+    width:100%;
+    background-color: whitesmoke;
+    line-height: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.footer-m a{
+    padding: 0px 50px 0px 50px;
+}
+
+.footer-m img {
+    width: 40px;
+}
